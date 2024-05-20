@@ -13,7 +13,7 @@ rye sync
 With pip:
 
 ```sh
-pip install laspy numpy matplotlib xarray geopandas rasterio scipy rioxarray
+pip install laspy lazrs numpy matplotlib xarray geopandas rasterio scipy rioxarray ipython ipykernel
 ```
 
 > [!CAUTION]
