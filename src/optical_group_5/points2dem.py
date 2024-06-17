@@ -6,7 +6,6 @@ from scipy.interpolate import LinearNDInterpolator
 
 def tin_interpolation(X:np.ndarray, Y: np.ndarray, Z: np.ndarray):
     assert X.shape == Y.shape == Z.shape, "X, Y, Z must have the same shape"
-
     # Filter out Z == nan (0)
     mask = ~np.isnan(Z)
     X_nozero = X[mask]
